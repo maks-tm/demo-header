@@ -20,6 +20,8 @@ body {
 
 .header {
   position: sticky;
+  top: 0;
+  left: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,6 +31,7 @@ body {
   padding-top: 1rem;
   padding-bottom: 0.5rem;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
 }
 
 .container {
@@ -393,59 +396,19 @@ body {
         background: white;
         padding: 1rem 4%;
       }
-    .hero-box::before {
-      background: rgba(145, 144, 144, 0.2);
-    }
-  
-  
-  
-    .steps-content-box {
-      display: grid;
-      grid-template-columns: repeat(1, 100%);
-    }
-    .steps-content img {
-      width: 100px;
-      height: 100px;
-    }
-  
-   
-    .about-content {
-      width: 100%;
-      height: auto;
-      padding: 0px;
-    }
-  
-    .footer-col {
-      width: 100%;
-    }
   }
   
   @media (max-width: 420px) {
     .container {
-      padding: 0rem 3%;
+      padding: 0rem 5%;
     }
     .header {
-      padding: 0rem 3%;
+      padding: 0rem 5%;
     }
     .navbar {
       padding: 0.5rem 1.2rem;
     }
     .navbar.active {
-        padding: 1rem 4%;
+        padding: 1rem 6%;
       }
-    .col-left {
-      width: 100%;
-      height: 100%;
-    }
-    .contacts-box {
-      padding: 0px 0px 10px 0px;
-      width: 100%;
-      height: auto;
-    }
-    .copyright-box {
-      margin-top: 15px;
-    }
-    .copyright {
-      padding: 25px 0px;
-    }
   }
