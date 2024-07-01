@@ -293,11 +293,11 @@ input {
 
 @media (max-width: 768px) {
   .container {
-    padding: 0rem 3%;
+    padding: 0rem 5%;
   }
 
   .header {
-    padding: 0rem 3%;
+    padding: 0rem 5%;
   }
 
   .logo img {
@@ -309,21 +309,21 @@ input {
 
 @media (max-width: 576px) {
   .container {
-    padding: 0rem 3%;
+    padding: 0rem 6%;
   }
 
   .header {
-    padding: 0rem 3%;
+    padding: 0rem 6%;
   }
 }
 
 @media (max-width: 420px) {
   .container {
-    padding: 0rem 5%;
+    padding: 0rem 6%;
   }
 
   .header {
-    padding: 0rem 5%;
+    padding: 0rem 6%;
   }
 
   .logo img {
@@ -336,7 +336,7 @@ input {
     width: 100%;
     height: auto;
     margin-top: 20px;
-    padding: 0% 5%;
+    padding: 0% 6%;
     box-shadow: none;
     border-radius: 0px;
     -webkit-border-radius: 0px;
